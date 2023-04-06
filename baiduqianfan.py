@@ -33,9 +33,15 @@ while True:
         break
     print(baiduQianFan.chat(input_message))
 
-#git remote add origin git@github.com:hanhyalex123/baiduqianfan.git 然后 git push -u origin master 报错Please make sure you have the correct access rights and the repository exists.应该怎么解决
+#使用开源中文NLMP模型写一个embedding的方法，补全代码，不要使用openai
+import torch
+from transformers import BertTokenizer, BertModel
+import numpy as np
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+import pandas as pd
 
-#say hello
 
 
 
